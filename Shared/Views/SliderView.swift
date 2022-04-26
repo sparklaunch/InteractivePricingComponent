@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct SliderView: View {
-    @State private var sliderValue: Double = 50.0
+    @EnvironmentObject private var globalState: GlobalState
     var body: some View {
-        CustomSlider(value: $sliderValue, lowestValue: 0.0, highestValue: 100.0)
+        CustomSlider(value: $globalState.sliderValue, lowestValue: 0.0, highestValue: 100.0)
             .offset(x: .zero, y: -16)
             .padding(24)
             .fixedSize(horizontal: false, vertical: true)

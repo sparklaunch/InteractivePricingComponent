@@ -19,6 +19,7 @@
 		90960ED3281777ED00538202 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED2281777ED00538202 /* PageView.swift */; };
 		90960ED52817781600538202 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED42817781600538202 /* SliderView.swift */; };
 		90960ED7281779A200538202 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED6281779A200538202 /* Utilities.swift */; };
+		90960ED9281783E300538202 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED8281783E300538202 /* GlobalState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		90960ED2281777ED00538202 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		90960ED42817781600538202 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		90960ED6281779A200538202 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		90960ED8281783E300538202 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		90960ECA2817738B00538202 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90960ED8281783E300538202 /* GlobalState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				90960ECD281775A400538202 /* BackgroundView.swift in Sources */,
 				90960ED3281777ED00538202 /* PageView.swift in Sources */,
+				90960ED9281783E300538202 /* GlobalState.swift in Sources */,
 				90960EBD2817735A00538202 /* ContentView.swift in Sources */,
 				90960EBB2817735A00538202 /* InteractivePricingComponentApp.swift in Sources */,
 				90960ED12817771B00538202 /* MainView.swift in Sources */,

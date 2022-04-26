@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var globalState = GlobalState()
     var body: some View {
         ZStack {
             BackgroundView()
@@ -16,6 +17,7 @@ struct ContentView: View {
                 MainView()
             }
         }
+        .environmentObject(globalState)
     }
 }
 
