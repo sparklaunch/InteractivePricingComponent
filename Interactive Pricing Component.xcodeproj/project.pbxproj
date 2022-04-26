@@ -15,6 +15,7 @@
 		90960EC02817735A00538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960EAD2817735A00538202 /* Assets.xcassets */; };
 		90960ECD281775A400538202 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ECC281775A400538202 /* BackgroundView.swift */; };
 		90960ECF281775D900538202 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ECE281775D900538202 /* HeaderView.swift */; };
+		90960ED12817771B00538202 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED02817771B00538202 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		90960EBA2817735A00538202 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		90960ECC281775A400538202 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		90960ECE281775D900538202 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90960ED02817771B00538202 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				90960EAC2817735900538202 /* ContentView.swift */,
 				90960ECC281775A400538202 /* BackgroundView.swift */,
 				90960ECE281775D900538202 /* HeaderView.swift */,
+				90960ED02817771B00538202 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				90960ECD281775A400538202 /* BackgroundView.swift in Sources */,
 				90960EBD2817735A00538202 /* ContentView.swift in Sources */,
 				90960EBB2817735A00538202 /* InteractivePricingComponentApp.swift in Sources */,
+				90960ED12817771B00538202 /* MainView.swift in Sources */,
 				90960ECF281775D900538202 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
