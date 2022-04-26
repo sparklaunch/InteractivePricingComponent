@@ -19,8 +19,8 @@
 		90960EAB2817735900538202 /* InteractivePricingComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePricingComponentApp.swift; sourceTree = "<group>"; };
 		90960EAC2817735900538202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90960EAD2817735A00538202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90960EB22817735A00538202 /* InteractivePricingComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractivePricingComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90960EB82817735A00538202 /* InteractivePricingComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractivePricingComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90960EB22817735A00538202 /* Interactive Pricing Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive Pricing Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90960EB82817735A00538202 /* Interactive Pricing Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interactive Pricing Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960EBA2817735A00538202 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90960EAA2817735900538202 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90960EAB2817735900538202 /* InteractivePricingComponentApp.swift */,
-				90960EAC2817735900538202 /* ContentView.swift */,
-				90960EAD2817735A00538202 /* Assets.xcassets */,
+				90960ECB2817738F00538202 /* App */,
+				90960ECA2817738B00538202 /* Models */,
+				90960EC92817738500538202 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90960EB32817735A00538202 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90960EB22817735A00538202 /* InteractivePricingComponent.app */,
-				90960EB82817735A00538202 /* InteractivePricingComponent.app */,
+				90960EB22817735A00538202 /* Interactive Pricing Component.app */,
+				90960EB82817735A00538202 /* Interactive Pricing Component.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90960EC92817738500538202 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90960EAC2817735900538202 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90960ECA2817738B00538202 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90960ECB2817738F00538202 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90960EAB2817735900538202 /* InteractivePricingComponentApp.swift */,
+				90960EAD2817735A00538202 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90960EB12817735A00538202 /* InteractivePricingComponent (iOS) */ = {
+		90960EB12817735A00538202 /* Interactive Pricing Component (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90960EC32817735A00538202 /* Build configuration list for PBXNativeTarget "InteractivePricingComponent (iOS)" */;
+			buildConfigurationList = 90960EC32817735A00538202 /* Build configuration list for PBXNativeTarget "Interactive Pricing Component (iOS)" */;
 			buildPhases = (
 				90960EAE2817735A00538202 /* Sources */,
 				90960EAF2817735A00538202 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "InteractivePricingComponent (iOS)";
+			name = "Interactive Pricing Component (iOS)";
 			productName = "InteractivePricingComponent (iOS)";
-			productReference = 90960EB22817735A00538202 /* InteractivePricingComponent.app */;
+			productReference = 90960EB22817735A00538202 /* Interactive Pricing Component.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90960EB72817735A00538202 /* InteractivePricingComponent (macOS) */ = {
+		90960EB72817735A00538202 /* Interactive Pricing Component (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90960EC62817735A00538202 /* Build configuration list for PBXNativeTarget "InteractivePricingComponent (macOS)" */;
+			buildConfigurationList = 90960EC62817735A00538202 /* Build configuration list for PBXNativeTarget "Interactive Pricing Component (macOS)" */;
 			buildPhases = (
 				90960EB42817735A00538202 /* Sources */,
 				90960EB52817735A00538202 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "InteractivePricingComponent (macOS)";
+			name = "Interactive Pricing Component (macOS)";
 			productName = "InteractivePricingComponent (macOS)";
-			productReference = 90960EB82817735A00538202 /* InteractivePricingComponent.app */;
+			productReference = 90960EB82817735A00538202 /* Interactive Pricing Component.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90960EA92817735900538202 /* Build configuration list for PBXProject "InteractivePricingComponent" */;
+			buildConfigurationList = 90960EA92817735900538202 /* Build configuration list for PBXProject "Interactive Pricing Component" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90960EB12817735A00538202 /* InteractivePricingComponent (iOS) */,
-				90960EB72817735A00538202 /* InteractivePricingComponent (macOS) */,
+				90960EB12817735A00538202 /* Interactive Pricing Component (iOS) */,
+				90960EB72817735A00538202 /* Interactive Pricing Component (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.InteractivePricingComponent;
-				PRODUCT_NAME = InteractivePricingComponent;
+				PRODUCT_NAME = "Interactive Pricing Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.InteractivePricingComponent;
-				PRODUCT_NAME = InteractivePricingComponent;
+				PRODUCT_NAME = "Interactive Pricing Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.InteractivePricingComponent;
-				PRODUCT_NAME = InteractivePricingComponent;
+				PRODUCT_NAME = "Interactive Pricing Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.InteractivePricingComponent;
-				PRODUCT_NAME = InteractivePricingComponent;
+				PRODUCT_NAME = "Interactive Pricing Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90960EA92817735900538202 /* Build configuration list for PBXProject "InteractivePricingComponent" */ = {
+		90960EA92817735900538202 /* Build configuration list for PBXProject "Interactive Pricing Component" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90960EC12817735A00538202 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90960EC32817735A00538202 /* Build configuration list for PBXNativeTarget "InteractivePricingComponent (iOS)" */ = {
+		90960EC32817735A00538202 /* Build configuration list for PBXNativeTarget "Interactive Pricing Component (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90960EC42817735A00538202 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90960EC62817735A00538202 /* Build configuration list for PBXNativeTarget "InteractivePricingComponent (macOS)" */ = {
+		90960EC62817735A00538202 /* Build configuration list for PBXNativeTarget "Interactive Pricing Component (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90960EC72817735A00538202 /* Debug */,
