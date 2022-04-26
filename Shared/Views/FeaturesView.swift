@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeaturesView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 16) {
             FeatureView(text: "Unlimited websites")
             FeatureView(text: "100% data ownership")
             FeatureView(text: "Email reports")

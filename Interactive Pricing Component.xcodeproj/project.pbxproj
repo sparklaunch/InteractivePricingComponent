@@ -25,6 +25,7 @@
 		90960EDF28178F4400538202 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EDE28178F4400538202 /* CustomDivider.swift */; };
 		90960EE128178F8500538202 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EE028178F8500538202 /* FeaturesView.swift */; };
 		90960EE328178F9700538202 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EE228178F9700538202 /* FeatureView.swift */; };
+		90960EE52817910000538202 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EE42817910000538202 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		90960EDE28178F4400538202 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
 		90960EE028178F8500538202 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
 		90960EE228178F9700538202 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		90960EE42817910000538202 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				90960EDE28178F4400538202 /* CustomDivider.swift */,
 				90960EE028178F8500538202 /* FeaturesView.swift */,
 				90960EE228178F9700538202 /* FeatureView.swift */,
+				90960EE42817910000538202 /* StartButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				90960ECD281775A400538202 /* BackgroundView.swift in Sources */,
 				90960EDD2817878E00538202 /* BillingView.swift in Sources */,
 				90960ED3281777ED00538202 /* PageView.swift in Sources */,
+				90960EE52817910000538202 /* StartButtonView.swift in Sources */,
 				90960ED9281783E300538202 /* GlobalState.swift in Sources */,
 				90960EBD2817735A00538202 /* ContentView.swift in Sources */,
 				90960EBB2817735A00538202 /* InteractivePricingComponentApp.swift in Sources */,

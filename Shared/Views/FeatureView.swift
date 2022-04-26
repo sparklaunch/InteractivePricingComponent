@@ -17,8 +17,9 @@ struct FeatureView: View {
             Text(text)
                 .font(.footnote)
                 .fontWeight(.light)
-                .foregroundColor(Color("BodyColor"))
+                .foregroundColor(Color("TitleColor"))
         }
+        .offset(x: -8, y: .zero)
     }
 }
 
