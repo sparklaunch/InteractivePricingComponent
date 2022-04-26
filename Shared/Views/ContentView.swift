@@ -12,9 +12,15 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundView()
-            VStack {
-                HeaderView()
-                MainView()
+            ScrollView {
+                VStack {
+                    HeaderView()
+                    MainView()
+                }
+                .padding(.top)
+            }
+            .onAppear {
+                UIScrollView.appearance().bounces = false
             }
         }
         .environmentObject(globalState)
