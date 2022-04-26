@@ -12,15 +12,10 @@ struct SliderView: View {
     var body: some View {
         CustomSlider(value: $globalState.sliderValue, lowestValue: 0.0, highestValue: 100.0)
             .offset(x: .zero, y: -16)
-            .padding(24)
+            .padding(.horizontal)
+            .padding(.top)
             .fixedSize(horizontal: false, vertical: true)
     }
 }
 
-struct SliderView_Previews: PreviewProvider {
-    static var previews: some View {
-        SliderView()
-            .padding(.vertical)
-            .previewLayout(.sizeThatFits)
-    }
-}
+// WARNING: PREVIEW UNAVAILABLE.
