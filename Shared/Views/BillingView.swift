@@ -20,8 +20,9 @@ struct BillingView: View {
                 Toggle(isOn: $globalState.isYearlyBillingOn) {
                     // TOGGLE LABEL HIDDEN.
                 }
+                .toggleStyle(CustomToggleStyle())
                 .labelsHidden()
-                .frame(maxWidth: .infinity)
+                .frame(width: 48)
                 Text("Yearly Billing")
                     .font(.footnote)
                     .fontWeight(.light)

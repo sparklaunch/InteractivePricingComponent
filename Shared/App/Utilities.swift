@@ -47,3 +47,25 @@ struct CustomSlider: View {
         }
     }
 }
+
+struct CustomToggleStyle: ToggleStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        GeometryReader { geometry in
+            ZStack(alignment: .leading) {
+                Capsule(style: .continuous)
+                    .fill(Color("SwitchBackgroundColor"))
+                    .frame(height: 24)
+                Circle()
+                    .fill(.white)
+                    .frame(width: 18, height: 18)
+                    .shadow(radius: 10)
+                    .offset(x: configuration.isOn ? geometry.size.width - 21 : 3, y: .zero)
+            }
+        }
+        .onTapGesture {
+            withAnimation(.default.speed(2)) {
+                configuration.isOn.toggle()
+            }
+        }
+    }
+}
