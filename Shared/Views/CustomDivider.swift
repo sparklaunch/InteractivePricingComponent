@@ -13,6 +13,7 @@ struct CustomDivider: View {
             .background(Color("BodyColor"))
             .scaleEffect(x: 1.2, y: 1, anchor: .center)
             .padding(.vertical)
+            .padding(.top)
     }
 }
 

@@ -17,6 +17,7 @@ struct MainView: View {
                 PricingView()
                 BillingView()
                 CustomDivider()
+                FeaturesView()
             }
             .padding()
         }

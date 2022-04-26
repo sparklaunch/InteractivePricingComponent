@@ -23,6 +23,8 @@
 		90960EDB281784A000538202 /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EDA281784A000538202 /* PricingView.swift */; };
 		90960EDD2817878E00538202 /* BillingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EDC2817878E00538202 /* BillingView.swift */; };
 		90960EDF28178F4400538202 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EDE28178F4400538202 /* CustomDivider.swift */; };
+		90960EE128178F8500538202 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EE028178F8500538202 /* FeaturesView.swift */; };
+		90960EE328178F9700538202 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EE228178F9700538202 /* FeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		90960EDA281784A000538202 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
 		90960EDC2817878E00538202 /* BillingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingView.swift; sourceTree = "<group>"; };
 		90960EDE28178F4400538202 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		90960EE028178F8500538202 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		90960EE228178F9700538202 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				90960EDA281784A000538202 /* PricingView.swift */,
 				90960EDC2817878E00538202 /* BillingView.swift */,
 				90960EDE28178F4400538202 /* CustomDivider.swift */,
+				90960EE028178F8500538202 /* FeaturesView.swift */,
+				90960EE228178F9700538202 /* FeatureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,8 +243,10 @@
 				90960EBD2817735A00538202 /* ContentView.swift in Sources */,
 				90960EBB2817735A00538202 /* InteractivePricingComponentApp.swift in Sources */,
 				90960ED12817771B00538202 /* MainView.swift in Sources */,
+				90960EE328178F9700538202 /* FeatureView.swift in Sources */,
 				90960ECF281775D900538202 /* HeaderView.swift in Sources */,
 				90960EDF28178F4400538202 /* CustomDivider.swift in Sources */,
+				90960EE128178F8500538202 /* FeaturesView.swift in Sources */,
 				90960EDB281784A000538202 /* PricingView.swift in Sources */,
 				90960ED7281779A200538202 /* Utilities.swift in Sources */,
 				90960ED52817781600538202 /* SliderView.swift in Sources */,
