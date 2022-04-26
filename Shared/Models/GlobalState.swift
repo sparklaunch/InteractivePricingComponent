@@ -9,4 +9,5 @@ import Foundation
 
 class GlobalState: ObservableObject {
     @Published var sliderValue = 50.0
+    @Published var isYearlyBillingOn = false
 }

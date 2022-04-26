@@ -15,6 +15,7 @@ struct MainView: View {
                 PageView()
                 SliderView()
                 PricingView()
+                BillingView()
             }
             .padding()
         }
