@@ -20,6 +20,7 @@
 		90960ED52817781600538202 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED42817781600538202 /* SliderView.swift */; };
 		90960ED7281779A200538202 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED6281779A200538202 /* Utilities.swift */; };
 		90960ED9281783E300538202 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960ED8281783E300538202 /* GlobalState.swift */; };
+		90960EDB281784A000538202 /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960EDA281784A000538202 /* PricingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		90960ED42817781600538202 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		90960ED6281779A200538202 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		90960ED8281783E300538202 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		90960EDA281784A000538202 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				90960ED02817771B00538202 /* MainView.swift */,
 				90960ED2281777ED00538202 /* PageView.swift */,
 				90960ED42817781600538202 /* SliderView.swift */,
+				90960EDA281784A000538202 /* PricingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				90960EBB2817735A00538202 /* InteractivePricingComponentApp.swift in Sources */,
 				90960ED12817771B00538202 /* MainView.swift in Sources */,
 				90960ECF281775D900538202 /* HeaderView.swift in Sources */,
+				90960EDB281784A000538202 /* PricingView.swift in Sources */,
 				90960ED7281779A200538202 /* Utilities.swift in Sources */,
 				90960ED52817781600538202 /* SliderView.swift in Sources */,
 			);

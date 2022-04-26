@@ -14,6 +14,7 @@ struct PageView: View {
             .font(.body)
             .fontWeight(.bold)
             .foregroundColor(Color("BodyColor"))
+            .padding()
     }
 }
 

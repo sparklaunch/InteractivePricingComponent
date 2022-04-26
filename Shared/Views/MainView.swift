@@ -14,6 +14,7 @@ struct MainView: View {
             VStack {
                 PageView()
                 SliderView()
+                PricingView()
             }
             .padding()
         }
@@ -24,10 +25,4 @@ struct MainView: View {
     }
 }
 
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-            .background(Color("BackgroundColor"))
-            .previewLayout(.sizeThatFits)
-    }
-}
+// WARNING: PREVIEW UNAVAILABLE.
