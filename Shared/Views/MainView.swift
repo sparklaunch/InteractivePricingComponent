@@ -12,11 +12,8 @@ struct MainView: View {
         ZStack {
             Color.white
             VStack {
-                Text("100K PAGEVIEWS")
-                    .kerning(2)
-                    .font(.body)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color("BodyColor"))
+                PageView()
+                SliderView()
             }
             .padding()
         }
